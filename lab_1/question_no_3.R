@@ -16,7 +16,7 @@ greatest<- function(){
     print(paste("The greatest of three number is : ", third_number))
   }
 } 
-}
+
 sum_of_n <- function(){
   n <- as.integer(readline(prompt = "Enter the nth number : "))
   sum_of_numbers <- 0
