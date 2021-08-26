@@ -13,7 +13,7 @@ data3$Salary[is.na(data3$Salary)]<-median(data3$Salary, na.rm=TRUE)
 data3$Country = factor(data3$Country ,
 levels = c('France','Spain','Germany'),
 labels = c(1,2,3))
-
+#encoding the target variable with 0 and 1
 data3$Purchased = factor(data3$Purchased ,
                        levels = c('Yes','No'),
                        labels = c(0,1))
